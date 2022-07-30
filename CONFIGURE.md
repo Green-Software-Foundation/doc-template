@@ -1,4 +1,4 @@
-# Setting up this project
+# Configuring this repository
 
 This is a template repository based on docusaurus.io
 
@@ -59,7 +59,7 @@ In this template you can define some default agenda items or other content which
 
 If you are using GitHub pages to deploy (the default) and you want to use a custom domain like `myproject.greensoftware.foundation` then you need to add **JUST** the text `myproject.greensoftware.foundation` to this file.
 
-### Delete this SETUP.md
+### Delete this CONFIGURE.md
 
 Once you are happy with the setup please delete this file.
 
