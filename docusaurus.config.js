@@ -33,12 +33,14 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
           // Change this to your repo.
-          editUrl:
-            "https://github.com/Green-Software-Foundation/TODO/",
+          editUrl: "https://github.com/Green-Software-Foundation/TODO/",
         },
         blog: false,
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        gtag: {
+          trackingID: "G-593HJXNS18",
         },
       }),
     ],
@@ -76,7 +78,7 @@ const config = {
               {
                 label: "Website",
                 href: "https://TODO.greensoftware.foundation",
-              }              
+              },
             ],
           },
           {
@@ -106,7 +108,7 @@ const config = {
               {
                 label: "Linkedin",
                 href: "https://www.linkedin.com/company/green-software-foundation/",
-              }              
+              },
             ],
           },
         ],
