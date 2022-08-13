@@ -42,6 +42,12 @@ const config = {
         gtag: {
           trackingID: "G-593HJXNS18",
         },
+        sitemap: {
+          changefreq: "weekly",
+          priority: 0.5,
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
+        },
       }),
     ],
   ],
